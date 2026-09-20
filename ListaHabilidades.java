@@ -24,4 +24,20 @@ public class ListaHabilidades {
         }
     }
 
+    public void adicionarHabilidade(String nomeHabilidade, String efeitoHabilidade) {
+        Habilidade novaHabilidade = new Habilidade(nomeHabilidade, efeitoHabilidade);
+        listaHabilidades.add(novaHabilidade);
+    }
+
+    public void removerHabilidade(String nomeHabilidade) {
+        for (int x=0; x<listaHabilidades.size(); x++) {
+            if (listaHabilidades.get(x).getNomeHabilidade() == nomeHabilidade) {
+                listaHabilidades.remove(nomeHabilidade);
+                break;
+            } else {
+                System.out.println("Nenhuma habilidade com esse nome foi encontrada.");
+            }
+        }
+    }
+
 }

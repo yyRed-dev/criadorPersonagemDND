@@ -5,7 +5,7 @@ public class Classe {
     private String descricaoClasse;
     private ListaHabilidades listaHabilidadesClasse;
 
-    public Classe(String nomeClasse, String descricaoClasse, ListaHabilidades listaHabilidadesClasse) {
+    public Classe(String nomeClasse, String descricaoClasse) {
         this.nomeClasse = nomeClasse;
         this.descricaoClasse = descricaoClasse;
         this.listaHabilidadesClasse = listaHabilidadesClasse;

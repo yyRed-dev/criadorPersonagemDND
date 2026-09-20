@@ -35,9 +35,9 @@ public class Personagem {
     }
 
     public void mostraPersonagem() {
-        System.out.println("Nome:" +this.getNomePersonagem()+ " | Jogador: " +this.getNomeJogador() );
-        System.out.println("Classe:" +this.classe.getNomeClasse() + this.getNivelPersonagem());
-        raca.mostrarRaca();
+        System.out.println("Nome: " +this.getNomePersonagem()+ " | Jogador: " +this.getNomeJogador() );
+        System.out.println("Classe: " +this.classe.getNomeClasse() + " " + this.getNivelPersonagem());
+        System.out.println("Especie: " + this.raca.getNomeRaca() );
     }
 
 }

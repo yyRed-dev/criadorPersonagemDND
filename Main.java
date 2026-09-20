@@ -7,7 +7,7 @@ public class Main {
         habPaladino.add(new Habilidade("Sentido Divino", "Detecta criaturas malignas."));
         habPaladino.add(new Habilidade("Imposição das Mãos", "Cura pontos de vida."));
 
-        Classe paladino = new Classe("Paladino", "Um guerreiro poderoso que extrai força de sua fé.", new ListaHabilidades(habPaladino));
+        Classe paladino = new Classe("Paladino", "Um guerreiro poderoso que extrai força de sua fé.");
 
         ArrayList<Habilidade> habHumano = new ArrayList<>();
         habHumano.add(new Habilidade("Versatilidade", "Pode se adaptar a diversas situações."));
